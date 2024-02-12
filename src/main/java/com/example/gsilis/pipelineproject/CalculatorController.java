@@ -1,4 +1,4 @@
-package com.gsilis.calculator;
+package com.example.gsilis.pipelineproject;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

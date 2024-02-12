@@ -1,4 +1,4 @@
-package com.gsilis.calculator;
+package com.example.gsilis.pipelineproject;
 
 import org.springframework.stereotype.Service;
 @Service
