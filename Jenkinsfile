@@ -9,5 +9,10 @@ pipeline {
     stage("Compile") {
       sh "./gradlew compileJava"
     }
+    stage("Unit test") {
+      steps {
+        sh "./gradlew test"
+      }
+    }
   }
 }
