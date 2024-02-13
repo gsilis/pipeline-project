@@ -14,6 +14,7 @@ pipeline {
     stage("Code coverage") {
       steps {
         sh "./gradlew jacocoTestReport"
+        // Requires the html publisher plugin in jenkins
         publishHTML (target: [
           reportDir: 'build/reports/jacoco/test/html',
           reportFiles: 'index.html',
